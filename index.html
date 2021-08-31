@@ -10,7 +10,7 @@
   <div id="app">
     <v-app>
       <v-app-bar color="blue" dense flat elevate-on-scroll app>
-        <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
+        <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
         <v-toolbar-title>PRCLive</v-toolbar-title>
       </v-app-bar>
       
